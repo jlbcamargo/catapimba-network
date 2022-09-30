@@ -15,7 +15,6 @@ module "vpc" {
   tags = {
     Terraform   = "true"
     Environment = "prod"
-    Name = "catapimba-corps-vpc"
+    Name        = "catapimba-corps-vpc"
   }
 }
-
